@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#000000"
+    tools:context=".DetailedViewScreen">
+
+    <ImageView
+        android:id="@+id/imageView2"
+        android:layout_width="236dp"
+        android:layout_height="119dp"
+        android:layout_marginStart="87dp"
+        android:layout_marginTop="106dp"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnBack"
+        app:srcCompat="@drawable/img_1" />
+
+    <Button
+        android:id="@+id/btnDisplay"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="34dp"
+        android:layout_marginTop="44dp"
+        android:background="#8C5F5F"
+        android:text="Display"
+        android:textColor="#FFFBFB"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/txtOutput" />
+
+    <Button
+        android:id="@+id/btnQuantity"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="137dp"
+        android:layout_marginTop="44dp"
+        android:background="#A85353"
+        android:text="Quantity"
+        app:layout_constraintStart_toEndOf="@+id/btnDisplay"
+        app:layout_constraintTop_toBottomOf="@+id/txtOutput" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="140dp"
+        android:layout_marginTop="45dp"
+        android:background="#A06262"
+        android:text="Back to Base"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnQuantity" />
+
+    <TextView
+        android:id="@+id/txtOutput"
+        android:layout_width="397dp"
+        android:layout_height="311dp"
+        android:layout_marginStart="6dp"
+        android:layout_marginTop="10dp"
+        android:textColor="@color/white"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>
