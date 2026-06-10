@@ -1,5 +1,5 @@
 package com.example.campsitecommander
-
+//St10522875, Zakassa Antonio
 import android.content.Intent
 import android.os.Bundle
 import android.os.Handler
