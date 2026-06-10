@@ -7,11 +7,14 @@ This project covers a designed app that was built with Kotlin using arrays, loop
 
 **Concepts Covered**
 Toast messages — displaying short popup notifications using Toast.makeText()
+
 Transition - transitioning to the next activity by declaring delayMillis
+
 Error handling -  if (item.isEmpty() || category.isEmpty() ||
+
 Log.d - Debug: Essential information for tracking variables or behavior
+
 Layout structure — LinearLayout with TextView and Button in activity_main.xml
-Project Structure
 
 Setup
 Clone the repository
